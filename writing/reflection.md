@@ -65,7 +65,12 @@ the caller omits that argument.
 
 **Your Answer:**
 
-TODO
+A defult parameter is a value assigned to a parameter in the given instance that an argument is not used in the call of that function. 
+```
+def greet(name="Guest"):
+    print(f"Hello, {name}!")
+```
+If the caller omits the argument, name, when calling the function the default value, "Guest", assigned to the parameter will automatically fill in.
 
 ---
 
@@ -83,7 +88,7 @@ for n in range(1, 11):
 
 **Your Answer:**
 
-TODO
+result = [n * 2 for n in range(1, 11) if n % 3 == 0]
 
 ---
 
@@ -94,7 +99,7 @@ What is the value of `2 ** 2 ** 3`? Show your step-by-step reasoning.
 
 **Your Answer:**
 
-TODO
+The value is 256. You start by resolving 2 ** 3 which is 8 then move on to the 2 ** part using 8, so 2 ** 8, which is 2 * 2 * 2 * 2 * 2 * 2 * 2 * 2 = 256.
 
 ---
 
@@ -104,7 +109,7 @@ TODO
 
 **Your Answer:**
 
-TODO
+Classes are like the reusable holder for multiple objects. IT's a great way to keep alike objects together, and its reusable, so if you need multiple functions to be used, putting them all into one class is not only neater, but easier to use.
 
 ---
 
